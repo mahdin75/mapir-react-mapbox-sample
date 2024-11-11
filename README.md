@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Mapbox Gl JS + Map.ir SDKs and APIs
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a **3D map application** developed in **JavaScript** using **Mapbox GL JS** and **Map.ir Tile Service**. The project demonstrates how to integrate 3D map functionality with **Map.ir's geocode and search APIs** to create an interactive mapping experience. The project was developed as a sample for exploring Map.ir and Mapbox GL JS services in **Winter 2020**.
 
-## Available Scripts
+## Key Features
+- **3D Map Visualization**: Built with Mapbox GL JS, offering immersive 3D map interactions.
+- **Map.ir Integration**: Utilizes Map.ir tile services, geocoding, and search API for enhanced mapping capabilities.
+- **Geocode Functionality**: Allows users to search for specific locations using Map.ir's geocode API.
+- **Search API**: Provides a search tool for finding points of interest through Map.ir's search API.
 
-In the project directory, you can run:
+## Getting Started
+This project was bootstrapped with **Create React App**. You can manage it through various `yarn` commands:
 
-### `yarn start`
+- **Development**: `yarn start` – Runs the app on `http://localhost:3000`, with live reload on changes.
+- **Testing**: `yarn test` – Launches the test runner in interactive watch mode.
+- **Production Build**: `yarn build` – Builds the app for production, optimizing and minifying files.
+- **Configuration Customization**: `yarn eject` – Copies all build configurations for customization. (Note: This operation is irreversible.)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Demo GIFs
+| Functionality  | Demo |
+|----------------|------|
+| **Geocode**    | ![Geocode Demo](docs/home_geocode.gif) – Shows how to search for a location using the geocode API. |
+| **Search API** | ![Search Demo](docs/search.gif) – Demonstrates the use of the search API for points of interest. |
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Requirements
+- **Mapbox GL JS** library
+- **Map.ir API** access (API key required for geocode and search functionalities)
 
-### `yarn test`
+## Installation
+1. Clone the repository.
+2. Install dependencies with `yarn install`.
+3. Run the app with `yarn start`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Additional Information
+This project serves as an example to integrate **Map.ir** services with **Mapbox GL JS** to create 3D maps and geospatial functionalities. It is particularly useful for developers looking to implement geocoding and search features with Map.ir APIs in a 3D mapping environment.
